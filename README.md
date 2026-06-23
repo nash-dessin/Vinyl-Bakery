@@ -13,7 +13,6 @@ Vinyl presents a tasteful restaurant brand with a warm coastal aesthetic. The la
 - Navigation menu with section anchors
 - Hero section with value proposition
 - Services/products section with descriptive cards
-- About and team sections
 - Contact form with required fields and browser validation
 - Footer with social links and copyright
 - Embedded media placeholder video
