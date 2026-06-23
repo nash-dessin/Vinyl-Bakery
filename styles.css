@@ -223,3 +223,33 @@ textarea {
   font-size: 0.9rem;
 }
 
+/* ---------- Footer info ---------- */
+
+.site-footer {
+  border-top: 1px solid var(--border);
+  padding: 3rem 0;
+}
+
+.footer-grid {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.footer-note {
+  color: var(--muted);
+}
+
+/* ---------- Mobile dimensions ---------- */
+
+@media (max-width: 768px) {
+  .nav-list {
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+
+  .hero,
+  .section {
+    padding: 3rem 0;
+  }
+}
