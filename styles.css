@@ -54,3 +54,35 @@ textarea {
   z-index: 100;
 }
 
+.skip-link:focus {
+  top: 1rem;
+  left: 1rem;
+  width: auto;
+  height: auto;
+  padding: 1rem;
+  background: var(--accent);
+  color: var(--surface);
+  z-index: 100;
+  border-radius: 4px;
+
+}
+
+:site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  max-width: var(--max-width);
+  margin: 0 auto;
+}
+
+header nav a {
+  text-decoration: none;
+  color: var(--text);
+  font-weight: 500;
+  margin-left: 1rem;
+}
+
+header nav a:hover {
+  color: var(--accent);
+}
