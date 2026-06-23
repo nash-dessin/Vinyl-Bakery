@@ -12,19 +12,32 @@
     <title>Vinyl | Coastal Modern Restaurant</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
-    <body>
-        <header>
-        <div class="logo">
-            <img src="images/logo.svg" alt="Vinyl logo" />
-        </div>
-        <nav>
-            <ul>
+     <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header" role="banner">
+      <div class="container header-inner">
+        <a class="brand" href="#home">Vinyl</a>
+        <button
+          class="nav-toggle"
+          aria-expanded="false"
+          aria-controls="primary-navigation"
+          aria-label="Open navigation menu"
+          id="navToggle"
+          type="button"
+        >
+          Menu
+        </button>
+        <nav class="primary-navigation" id="primary-navigation" aria-label="Primary navigation">
+          <ul class="nav-list">
+            <li><a href="#home">Home</a></li>
             <li><a href="#menu">Menu</a></li>
             <li><a href="#about">About</a></li>
+            <li><a href="#team">Team</a></li>
             <li><a href="#contact">Contact</a></li>
-            </ul>
+          </ul>
         </nav>
-        </header>
+      </div>
+    </header>
     
         <main>
         <section class="hero">
