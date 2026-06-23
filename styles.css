@@ -113,3 +113,113 @@ a {
   box-shadow: var(--shadow);
 }
 
+/* ---------- Buttons are here ---------- */
+
+.btn {
+  display: inline-block;
+  padding: 0.9rem 1.4rem;
+  border-radius: 999px;
+  font-weight: 600;
+  transition: 0.25s ease;
+}
+
+.btn-primary {
+  background: var(--accent);
+  color: burlywood;
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+}
+
+.btn-secondary {
+  background: var(--surface);
+  border: 1px solid var(--border);
+}
+
+.hero-actions {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin: 2rem 0;
+}
+
+/* ---------- Sections ---------- */
+
+.section {
+  padding: 5rem 0;
+}
+
+.section-intro {
+  max-width: 700px;
+  margin-bottom: 3rem;
+}
+
+/* ---------- Cards are here ---------- */
+
+.card-grid {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+}
+
+.card {
+  background: var(--surface);
+  padding: 1.25rem;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+
+.card h3 {
+  margin: 1rem 0 0.5rem;
+}
+
+/* ---------- About here ---------- */
+
+.about-quote {
+  margin-top: 2rem;
+  padding-left: 1rem;
+  border-left: 4px solid var(--accent);
+  color: var(--muted);
+  font-style: italic;
+}
+
+/* ---------- Contact info here ---------- */
+
+.contact-form {
+  background: var(--surface);
+  padding: 2rem;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+
+fieldset {
+  border: 0;
+  padding: 0;
+  margin: 0 0 1rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.4rem;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 0.9rem;
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  background: var(--surface-soft);
+}
+
+textarea {
+  min-height: 150px;
+  resize: vertical;
+}
+
+.contact-help {
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
