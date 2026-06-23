@@ -23,6 +23,16 @@ Vinyl presents a tasteful restaurant brand with a warm coastal aesthetic. The la
 - HTML5
 - CSS3
 
+## Setup Instructions
+
+1. Open `index.html` in a browser.
+2. For best results, use Chrome, Firefox, or Safari.
+3. No build tools are required.
+
+## Deployment
+
+This project can be deployed via GitHub Pages by hosting the repository's `main` branch or `docs/` folder.
+
 ## Business Rationale
 
 Vinyl Bakery is designed to appeal to guests seeking refined coastal dining and approachable event hospitality. The modern layout communicates quality while the content highlights curated menu experiences and personalized service.
