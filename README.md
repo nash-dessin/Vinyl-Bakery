@@ -23,7 +23,6 @@ Vinyl presents a tasteful restaurant brand with a warm coastal aesthetic. The la
 
 - HTML5
 - CSS3
-- Vanilla JavaScript
 
 ## Business Rationale
 
